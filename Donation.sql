@@ -173,7 +173,7 @@ GROUP BY
 ORDER BY 
   avg_per_donor DESC;
 
--- Total and unique donors per fund
+-- Report I: Total and unique donors per fund
 
 CREATE VIEW fund_popularity AS
 SELECT 

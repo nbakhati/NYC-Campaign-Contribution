@@ -20,6 +20,11 @@ For this project, the raw data was imported into **PostgreSQL**, cleaned and tra
 - Convert dates to proper date formats
 - Prepare summary tables for reporting
 
+# Tools: 
+- PostgreSQL: for data storage, cleaning, and reusable SQL Views.
+- DBeaver: for developing and testing SQL queries in a visual, convenient IDE.
+- Tableau: for building interactive visualizations and dashboards.
+
 # Key Analysis Queries
 - Total donations per fund
 - Donation trends over time

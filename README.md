@@ -68,6 +68,6 @@ Key Insight: Measures donor loyalty and repeat support.
 
 # How to Use
 
-- Run the SQL scripts in your PostgreSQL environment to create tables and views.
+- Run the SQL scripts (Donation.sql) in your PostgreSQL environment to create tables and views.
 - Open the Tableau workbook (.twbx) and connect to your local or extracted data.
 - Or, view the live dashboard directly

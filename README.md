@@ -36,31 +36,31 @@ These were implemented as SQL Views in PostgreSQL, then connected to Tableau.
 
 1. Top 10 Donors
 What it shows: Who contributed the most money overall.
-Key Insight: Highlights major individual donors and their total contributions.
+Key Insight: Highlights key donors whose large contributions can significantly influence fundraising totals. Useful to spot potential major backers and repeat high-value supporters.
 
 2. Total Donations per Fund
-What it shows: How much each political fund or candidate received.
-Key Insight: Ranks funds by total donations to identify popular campaigns.
+What it shows: How much money each political fund or candidate has raised in total.
+Key Insight: Makes it easy to see which campaigns attract the most financial support. Helps identify the top-performing funds and where donor money is concentrated.
 
 3. Donation Trend Over Time
 What it shows: Donations by month/year to spot seasonal or campaign cycle peaks.
-Key Insight: Shows spikes during election years and fundraising drives.
+Key Insight: Reveal clear spikes during election years and fundraising drives. Shows how public engagement and donor enthusiasm shift over time.
 
 4. % Change Year Over Year
-What it shows: How donations grew or shrank each year.
-Key Insight: Reveals fundraising momentum and possible political sentiment changes.
+What it shows: The growth or decline in total donations compared to the previous year.
+Key Insight: Tracks whether overall fundraising is gaining momentum or losing steam. Helps spot exceptional growth years or drops that could signal political or economic shifts.
 
 5. Fund Popularity
-What it shows: Number of unique donors per fund.
-Key Insight: Distinguishes between funds that rely on few large donors vs broad donor bases.
+What it shows: How many unique donors contribute to each fund.
+Key Insight: Highlights which funds have broad community support versus those reliant on a few major donors. Useful to understand grassroots backing versus big-donor dependence.
 
 6. Average Donation per Fund
-What it shows: Mean donation amount per fund.
-Key Insight: Shows whether funds receive mostly large or small donations.
+What it shows: The average size of a donation for each fund.
+Key Insight: Shows whether a fund raises money mainly through small donations from many people or larger contributions from fewer donors.
 
 7. Donations by State
 What it shows: Geographic distribution of contributions across the U.S.
-Key Insight: Identifies states with the highest donor activity.
+Key Insight: Maps out which states contribute the most. Reveals regional hotspots of political giving and potential target areas for campaign outreach.
 
 8. Donor Retention
 What it shows: How many donors gave in consecutive years.

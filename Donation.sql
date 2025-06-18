@@ -88,7 +88,7 @@ ORDER BY
 
 
 
--- Year-over-Year donation totals with % change 
+-- Report E: Year-over-Year donation totals with % change 
 
 CREATE VIEW yearly_totals_with_pct_change AS
 WITH yearly_totals AS (
@@ -114,7 +114,7 @@ ORDER BY
   donation_year;
 
 
--- Donors retention: donors who gave in consecutive calendar years 
+-- Report F: Donors retention: donors who gave in consecutive calendar years 
 CREATE VIEW donor_retention AS
 WITH donor_years AS (
   SELECT DISTINCT 
@@ -144,7 +144,7 @@ GROUP BY
 ORDER BY 
   year;
 
--- Average donation amount per fund
+-- Report G: Average donation amount per fund
 CREATE VIEW avg_donation_per_fund AS
 SELECT 
   fund_name,
@@ -159,7 +159,7 @@ ORDER BY
   avg_donation DESC;
 
 
--- Average donation per donor by state
+-- Report H: Average donation per donor by state
 CREATE VIEW avg_donation_per_donor_by_state AS
 SELECT 
   donor_state,
